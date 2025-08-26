@@ -33,4 +33,5 @@
 
 dic = {}
 dic['nome'] = 'Guilherme Zanelato Correa'
+dic['idade'] = '32'
 print(dic)
