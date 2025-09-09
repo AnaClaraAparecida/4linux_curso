@@ -9,4 +9,4 @@
 
 nome = input('Digite seu nome: ')
 idade = input('Informe a sua idade: ')
-print(f'Ola, meu nome é {nome}, e eu tenho {idade} anos!')
+print(f'Ola, meu nome é {nome} e eu tenho {idade} anos!')
