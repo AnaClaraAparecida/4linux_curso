@@ -1,0 +1,4 @@
+CPF: 542.841.668.83
+Idade: 18	
+Sexo: F
+UF: SP
