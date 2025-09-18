@@ -1,0 +1,22 @@
+<partida><!--Partida realizada em 2002 com o gol antologico do meia atacante -->
+    <ano>2002</ano>
+    <torneio>Rio Sao Paulo</torneio>
+    <times>
+        <mandante>Sao Paulo</mandante>
+        <visitante>Palmeiras</visitante>
+    </times>
+    <resultado>2X4
+        <gols>
+            <mandante>
+                <jogador1>Fran&#231;a</jogador1>
+                <jogador2>Kaka</jogador2>
+            </mandante>
+            <visitante>
+                <jogador1>Marao</jogador1>
+                <jogador2>Claudecir</jogador2>
+                <jogador3>Alex</jogador3>
+                <jogador4>Arce</jogador4>
+            </visitante>
+        </gols>
+    </resultado>
+</partida>

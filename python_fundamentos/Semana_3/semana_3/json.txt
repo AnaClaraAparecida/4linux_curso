@@ -1,0 +1,10 @@
+{ "torneio": "Rio-São Paulo",
+"ano": 2002,
+"estado": "SP",
+"estádio": "Morumbi",
+"mandante": "São Paulo",
+"visitante": "Palmeiras",
+"placar_mandante": 2,
+"placar_visitante":4,
+"gols": ["Magrão", "Claudecir", "Alex", "França", "Kaká", "Arce"]
+}

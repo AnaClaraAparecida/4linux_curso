@@ -28,6 +28,8 @@ while True:
         sexo = input('Sexo: ')
         uf = input('UF: ')
         with open('registro.txt', 'a') as arquivo:
-            registro = (f'Nome: {nome}\nCPF: {cpf}\nIdade: {idade}\n'
-                        f'Sexo: {sexo}\nUF: {uf}')
+            registro = (f'\nNome: {nome}\nCPF: {cpf}\nIdade: {idade}\n'
+                        f'Sexo: {sexo}\nUF: {uf}\n')
             arquivo.write(registro)
+
+
