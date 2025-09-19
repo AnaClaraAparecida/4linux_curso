@@ -9,8 +9,8 @@ with open('arquivo.csv', 'r') as arquivo:
 # uf
 
 cpf = '1324'
-#for registro in cadastro:
-    #if registro .split(',')[0] == cpf:
+#for registro.csv in cadastro:
+    #if registro.csv .split(',')[0] == cpf:
 for indice in range(len(cadastro)):
     if cadastro[indice].split(',')[0] == cpf:
         print(cadastro[indice])
@@ -26,10 +26,10 @@ for indice in range(len(cadastro)):
         #del cadastro[indice]
         #cadastro[indice] = f'{cpf}, {nome}, {idade}, {sexo}, {uf}\n'
 
-#cadastro.append(registro)
+#cadastro.append(registro.csv)
 #with open('cadastro.csv', 'w') as arquivo:
     #arquivo.writelines(cadastro)
 with open('arquivo.csv', 'w') as arquivo:
     arquivo.writelines(cadastro)
 
-# formato do registro: '1111,Julio,36,M,SP\n'
+# formato do registro.csv: '1111,Julio,36,M,SP\n'
