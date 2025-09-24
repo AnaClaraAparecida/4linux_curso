@@ -1,3 +1,4 @@
+# Ex 1
 class Colaborador:
     def __init__(self):
         self.nome = ''
@@ -19,5 +20,33 @@ c1.salario = 10.50
 print(c1.apresentaColaborador())
 
 
-#class Gerente(Colaborador): -> apenas dessa forma, ele ja copia as infos do primeiro init
+#class Gerente(Colaborador): -> apenas dessa forma, ele ja copia as infos do primeiro init 'Herança'
 #    pass
+
+class Gerente(Colaborador):
+    def calcular_salario(self, bonus):
+        return self.salario * bonus
+
+
+# Ex 2
+class Mae:
+    def __init__(self):
+        self.nome = ''
+        self.nacionalidade = 'Francesa'
+
+    def falar_frances(self):
+        return 'Bounjour!'
+
+class Pai:
+    def __init__(self):
+        self.nome = ''
+        self.nacionalidade  = 'Ingles'
+
+    def falar_ingles(self):
+        return 'Good morning!'
+
+class Filha(Mae, Pai):
+    pass
+
+f1 = Filha()
+print(f1.falar_ingles(), f1.falar_frances())
