@@ -1,0 +1,16 @@
+Tipo                  Descrição                  Aﬁnidade
+INTEGER        Tipo responsável por armazenar    INT, INTEGER, TINYINT,SMALLINT,MEDIUMINT,
+               números inteiros                  BIGINT, UNSIGNED BIG INT, INT2, INT8
+
+TEXT           Tiporesponsável por armazenar     CHARACTER(20),VARCHAR(255), VARYING CHARACTER(255)
+               caracteres alfanuméricos          NCHAR(55),NATIVE CHARACTER(70),NVARCHAR(100), TEXT, CLOB
+
+REAL           Tipo responsável por representar  REAL, DOUBLE, DOUBLE PRECISION, FLOAT
+               caracteres com casas decimais
+
+BLOB           Binary Large OBject - responsavel NONE
+               por armazenar arquivos de em
+               formato puro
+
+--> Na aula foi utilizado um simulador de SQL onde aprendemos o basico sobre a plataforma para
+prosseguir com as proximas aulas
