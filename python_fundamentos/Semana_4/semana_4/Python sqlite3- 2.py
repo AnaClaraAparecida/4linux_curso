@@ -15,4 +15,6 @@ cursor.execute(f"""
     
 """)
 
+cursor.execute(sql)
 conn.commit()
+conn.close()
