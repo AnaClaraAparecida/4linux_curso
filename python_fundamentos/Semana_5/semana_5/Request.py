@@ -1,7 +1,13 @@
 import requests
 
-url = 'https://viacep.com.br/ws/{cep}/json/'
+cep = '04101300'
+url = f'https://viacep.com.br/ws/{cep}/json/'
 
-teste = '04101300'
+resposta = requests.get(url)
 
-resposta = requests.get(url.format(cep=teste))
+# Verifica se a resposta foi bem-sucedida
+if resposta.status_code == 200:
+    dados = resposta.json()
+    print(dados)
+else:
+    print(f'Erro ao buscar o CEP: {resposta.status_code}')
