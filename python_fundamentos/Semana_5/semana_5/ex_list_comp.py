@@ -34,3 +34,4 @@ def adiciona_faixa_preco(registro_venda):
         novo_registro.append('mais que 200k')
 
     return novo_registro
+
