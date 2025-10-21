@@ -16,3 +16,21 @@ amostra = [dados[randint(0, len(dados)-1)] for x in range(100)]
 # 5: filtrar os imoveis com preços acima de $100.000
 imoveis_100k = [registro for registro in dados if float(registro[9]) > 100000]
 
+
+# ex de uso do map 
+def adiciona_faixa_preco(registro_venda):
+    novo_registro = registro_venda
+    preco = float(novo_registro[9])
+
+    if preco < 50000: 
+        novo_registro.append('ate 50k')
+    elif preco < 100000:
+        novo_registro.append('50k - 100k')
+    elif preco < 150000:
+        novo_registro.append('100k - 150k')
+    elif preco < 200000:
+        novo_registro.append('150k - 200k')
+    else:
+        novo_registro.append('mais que 200k')
+
+    return novo_registro
