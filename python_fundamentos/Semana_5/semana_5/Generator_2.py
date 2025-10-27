@@ -1,5 +1,5 @@
 
-def leitura(objeto_arquivo):
+def leitura(objeto_arquivo, ):
     while True:
         registro = objeto_arquivo.readline()
         if not registro:
