@@ -24,3 +24,9 @@ class TesteEcommerce(unittest.TestCase):
         self.make_assertions()
 
 
+
+
+
+
+
+
